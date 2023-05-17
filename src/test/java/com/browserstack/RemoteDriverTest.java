@@ -25,9 +25,6 @@ public class RemoteDriverTest {
 
     // mvn -Dtest=com.browserstack.RemoteDriverTest test-compile surefire:test
     static WebDriver driver = null;
-    
-    static String username = "agarwal.harshnu@gmail.com";
-	static String password = "Harsh@1202";
 
 	@BeforeTest
     public void setUp() throws MalformedURLException {
