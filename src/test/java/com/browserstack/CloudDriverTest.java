@@ -12,11 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class CloudDriverTest {
-
-    static String username = "agarwal.harshnu@gmail.com";
-	static String password = "Harsh@1202";
-	
+public class CloudDriverTest {	
     
     static WebDriver driver = null;
 
